@@ -1,5 +1,8 @@
 language: clojure
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 lein:
   - 1.3.0
   - 1.4.0
